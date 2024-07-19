@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Account Registration Form</h1>
+    <h2>Account Information</h2>
+    <label for="Account Type"> Account Type</label><br><br>
+    <select name="Account Type" id="Account Type">
+        <option value="please select"> Please Select</option>
+        <option value="Checking Account">Checking Account</option>
+        <option value="Savings Account">Savings Account</option>
+        <option value="A Money Market Account">A Money Market Account</option>
+        <option value="Certificates of Deposit (CD)">Certificates of Deposit (CD)</option>
+        <option value="IRA Account">IRA Account</option>
+    </select><br><br>
+
+    
+    <label  for="Currency Type"> Currency Type</label><br><br>
+    <select name="Currency Type" id="Currency Type">
+        <option value="please select"> Currency Type/option>
+        <option value="KWD-Kuwaiti">KWD-Kuwaiti</option>
+        <option value="USD-US Dollar">USD-US Dollar</option>
+        <option value="EUR-Euro">EUR-Euro</option>
+        <option value="GBP-Pound Sterling">GBP-Pound Sterling</option>
+        
+    </select>
+    
+    <h2  class="john">Personal Information</h2>
+        <body style="color: blueviolet;">
+            The information given in this section is considered as the information of the primary account owner information
+        </body> <br><br><br>
+        <label for="name" ><b>Name</b></label></b><br><br>
+            <input type="prefix"placeholder="prefix" >
+            <input type="first name" placeholder="First Name">
+            <input type="Last Name" placeholder="Last Name"><br><br>
+        
+        <label for="Phone Number"><b>Phone Number</b></label><br><br>
+            <input type="number" name="phone Number"placeholder="(000) 000-0000" id="Phone Number"><br><br>
+        
+        <label for="Date of Birth"><b>Date of Birth</b></label><br><br>
+            <input type="datetime-local" name="Date of Birth" id="Date of Birth"><br><br>
+        
+        <label for="Residental Address"><b>Residental Address</b></label><br><br>
+            <textarea name="Street Address" id="Street Address 1" placeholder="Street Address 1" cols="50" rows="2"></textarea><BR></BR>
+            <textarea name="Street Address" id="Street Address 2" placeholder="Street Address 2" cols="50" rows="2"></textarea><BR><BR>
+            <input type="city"   name="city" id="city"  placeholder="city"> <br><br>
+            
+            <select name="country" id="country" placeholder="country"> 
+                <option value="country">country</option>
+                <option value="country">JORDAN</option>
+                <option value="country">ITALY</option>
+                <option value="country">ISRAEL</option>
+                <option value="country">IRAQ</option>
+                <option value="country">ICELAND</option>
+                <option value="country">NIGERIA</option>
+                <option value="country">MOROCCO</option>
+                <option value="country">MALI</option>
+                <option value="country">GHANA</option>
+                <option value="country">ALGERIA</option>
+            </select><br><br>
+
+            <label for="Citizenship"><b>Citizenship</b></label><br>
+               <p> <input type="radio" name="Citizenship" id="Citizenship">    US Citizen</p>
+               <p> <input type="radio" name="Citizenship" id="Citizenship">    EU Citizen</p>
+               <p> <input type="radio" name="Citizenship" id="Citizenship">    Others</p> <br><br>
+            
+            <label for="Marital Status"><b>Marital Status</b></label><br>
+                <select name="Status" id="Status">
+                    <option value="Status">Single</option>
+                    <option value="Status">Engaged</option>
+                    <option value="Status">Married</option>
+                </select><br><br>
+            
+            <label for="Occupation"><b>Occupation</b></label><br>
+                <input type="text"><br><br>
+            
+            <label for="Employer Name"><b>Employer Name</b></label><br>
+                <input type="text"><br><br>
+
+            <label for="Question"><b>Do you want to add joint owner to the bank Account</b></label><br>
+                <input type="radio" name="Answer" id="Answer"> Yes
+                <input type="radio" name="Answer" id="Answer"> No <br><br>
+            
+                <hr><br>
+
+        <h2>Joint Owner Information</h2>
+                <hr><br>
+                <body>
+                    By signing this form, i acknowledge that the information I've given in this form is accurate and i agree all the terms and conditions.
+                </body> <br>
+                <hr><br><br>
+
+                <input type="checkbox" name="consent" id="consent" required> I agree to <a href="www.accessbank.com/termsandconditions">terms & conditions.</a><br><br>
+
+            <label for="Date"><b>Date</b></label><br>
+                <input type="datetime-local" name="datetime-local" id="datetime-local"><br><br>
+            
+            <label for="Primary Owner Signature"><b>Primary Owner Signature</b></label><br>
+                <textarea name="Sign Here" id="Signature" placeholder="Signature" cols="30" rows="10"></textarea><br>
+                <button style="align-self: self-end;" type="button" disabled>Clear</button><br><br>
+            <hr>
+            <br><br>
+             <button type="submit">submit</button>
+
+                
+        
+    </body>
+</html>
